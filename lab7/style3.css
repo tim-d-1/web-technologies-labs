@@ -42,12 +42,10 @@ button {
 
 .form:nth-of-type(odd) {
     float: left;
-    clear: left;
 }
 
 .form:nth-of-type(even) {
     float: right;
-    clear: right;
 }
 
 form hr {
@@ -61,13 +59,12 @@ form hr {
 .fields-container::after {
     content: '';
     display: table;
-    clear: both;
+    clear: both
 }
 
 .textarea {
     width: 100%;
     float: none;
-    clear: both;
 }
 
 .fields-container .textarea textarea {
@@ -78,7 +75,6 @@ form hr {
 
 .btns {
     float: right;
-    clear: both;
     margin-top: 15px;
 }
 
@@ -118,7 +114,7 @@ input[type='password']:focus {
 }
 
 .textarea textarea:hover {
-    box-shadow: 0 0 10px 10px rgba(233, 27, 154, 0.6);
+    box-shadow: 0 0 10px 10px rgba(20, 186, 223, 0.6);
 }
 
 .btns button {
@@ -164,5 +160,4 @@ input[type='password']:focus {
     border: 3px solid #ecfd00;
     background-color: #014950;
     border-radius: 25px;
-    position: relative;
 }

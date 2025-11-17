@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keepsake Agency</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div
+        class="container"
+        style="
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        "
+      >
+        <a href="#" class="header_logo"
+          ><img src="icons/Logo.png" alt="Keepsake"
+        /></a>
+
+        <input type="checkbox" id="nav-toggle" class="nav_toggle" />
+        <label for="nav-toggle" class="nav_burger"><span></span></label>
+
+        <nav class="nav">
+          <ul class="nav_list">
+            <li><a href="#" class="nav_link">HOME</a></li>
+            <li><a href="#" class="nav_link">ABOUT US</a></li>
+            <li><a href="#" class="nav_link">OUR WORKS</a></li>
+            <li><a href="#" class="nav_link">JOURNAL</a></li>
+            <li><a href="#" class="nav_link">CONTACT</a></li>
+            <li>
+              <a href="#" class="nav_link nav_icon"
+                ><img src="icons/heart.svg" style="width: 20px" alt="Like"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero_title">
+            WE'RE KEEPSAKE, A DIGITAL & BRANDING AGENCY
+          </h1>
+          <p>
+            Specializing in web design, poster, motion video, based in London.
+            We love to turn ideas into beautiful things.
+          </p>
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="section_header">
+          <h2 class="section_title">Our awesome works</h2>
+          <button class="btn">Filter portfolio</button>
+        </div>
+
+        <div class="grid grid--gallery">
+          <div class="card-work">
+            <img src="icons/food1.jpg" alt="Work" />
+            <div class="card-work_overlay">
+              <div class="card-work_avatar">
+                <img src="icons/food1.jpg" alt="Author" />
+                <div class="card-work_plus">+</div>
+              </div>
+              <div class="name">Amanda Seyfried</div>
+              <span class="contact" style="color: #38bfc9; font-size: 12px"
+                >@contactaddress</span
+              >
+            </div>
+          </div>
+          <div class="card-work">
+            <img src="icons/food1.jpg" alt="Work" />
+            <div class="card-work_overlay">
+              <div class="card-work_avatar">
+                <img src="icons/food1.jpg" alt="Author" />
+                <div class="card-work_plus">+</div>
+              </div>
+              <div class="name">Amanda Seyfried</div>
+            </div>
+          </div>
+          <div class="card-work">
+            <img src="icons/food1.jpg" alt="Work" />
+            <div class="card-work_overlay">
+              <div class="card-work_avatar">
+                <img src="icons/food1.jpg" alt="Author" />
+                <div class="card-work_plus">+</div>
+              </div>
+              <div class="name">Amanda Seyfried</div>
+            </div>
+          </div>
+          <div class="card-work">
+            <img src="icons/food1.jpg" alt="Work" />
+            <div class="card-work_overlay">
+              <div class="card-work_avatar">
+                <img src="icons/food1.jpg" alt="Author" />
+                <div class="card-work_plus">+</div>
+              </div>
+              <div class="name">Amanda Seyfried</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="container">
+          <h2 class="section_title section_title--center">
+            WOULD YOU LOVE TO WORK WITH US?
+          </h2>
+          <a href="#contact" class="btn"
+            ><i class="fa fa-envelope"></i> CONTACT US</a
+          >
+        </div>
+      </section>
+
+      <section class="section container">
+        <h2 class="section_title section_title--center">WHAT WE DO</h2>
+        <p
+          style="
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 40px;
+            color: #777;
+          "
+        >
+          Maecenas sed diam eget risus varius blandit sit amet non magna.
+        </p>
+
+        <div class="grid grid--services">
+          <div class="card-service">
+            <div class="card-service_icon">
+              <img src="icons/food1.jpg" alt="" />
+            </div>
+            <h3>WEB DESIGN</h3>
+            <p style="color: #777; font-size: 14px">
+              Donec elit non mi porta gravida eu eget metus.
+            </p>
+          </div>
+          <div class="card-service">
+            <div class="card-service_icon">
+              <img src="icons/food1.jpg" alt="" />
+            </div>
+            <h3>MOTION VIDEO</h3>
+            <p style="color: #777; font-size: 14px">
+              Aenean lacinia bibendum nulla sed consectetur.
+            </p>
+          </div>
+          <div class="card-service">
+            <div class="card-service_icon">
+              <img src="icons/food1.jpg" alt="" />
+            </div>
+            <h3>PRINT DESIGN</h3>
+            <p style="color: #777; font-size: 14px">
+              Maecenas sed diam eget risus varius blandit.
+            </p>
+          </div>
+          <div class="card-service">
+            <div class="card-service_icon">
+              <img src="icons/food1.jpg" alt="" />
+            </div>
+            <h3>ILLUSTRATION</h3>
+            <p style="color: #777; font-size: 14px">
+              Cum sociis natoque penatibus et dis parturient.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="section_header">
+          <h2 class="section_title">FROM THE JOURNAL</h2>
+        </div>
+
+        <div class="grid grid--journal">
+          <article class="card-blog">
+            <div class="card-blog_img">
+              <img src="icons/food1.jpg" alt="" />
+            </div>
+            <div>
+              <p class="card-blog_meta">OCT 13, 2014 / IDENTITY</p>
+              <h3>SOLLICITUDIN TORTOR INCEPTOS</h3>
+              <p style="font-size: 14px; color: #666">
+                Maecenas faucibus mollis interdum.
+              </p>
+            </div>
+          </article>
+          <article class="card-blog">
+            <div class="card-blog_img">
+              <img src="icons/food1.jpg" alt="" />
+            </div>
+            <div>
+              <p class="card-blog_meta">OCT 23, 2014 / BRANDING</p>
+              <h3>AMET INCEPTOS FRINGILLA</h3>
+              <p style="font-size: 14px; color: #666">
+                Cum sociis natoque penatibus et magnis.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; 2014 Keepsake. All rights reserved. Theme by
+          <a href="#" style="color: white">elemis</a>.
+        </p>
+        <div class="social-list">
+          <a href="#" class="social-link bg-rss"><i class="fa fa-rss"></i></a>
+          <a href="#" class="social-link bg-fb"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="#" class="social-link bg-tw"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="#" class="social-link bg-dr"
+            ><i class="fab fa-dribbble"></i
+          ></a>
+          <a href="#" class="social-link bg-pin"
+            ><i class="fab fa-pinterest-p"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
